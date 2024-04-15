@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562918C22BCDA6E900CB7F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918C12BCDA6E900CB7F34 /* AppDelegate.swift */; };
+		562918C42BCDA6E900CB7F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918C32BCDA6E900CB7F34 /* ViewController.swift */; };
+		562918C62BCDA6E900CB7F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562918C52BCDA6E900CB7F34 /* Assets.xcassets */; };
+		562918C92BCDA6E900CB7F34 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 562918C82BCDA6E900CB7F34 /* Base */; };
+		562918D42BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918D32BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift */; };
+		562918DE2BCDA6EA00CB7F34 /* MunkiAdmin2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918DD2BCDA6EA00CB7F34 /* MunkiAdmin2UITests.swift */; };
+		562918E02BCDA6EA00CB7F34 /* MunkiAdmin2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918DF2BCDA6EA00CB7F34 /* MunkiAdmin2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562918D02BCDA6E900CB7F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562918B62BCDA6E900CB7F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562918BD2BCDA6E900CB7F34;
+			remoteInfo = MunkiAdmin2;
+		};
+		562918DA2BCDA6EA00CB7F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562918B62BCDA6E900CB7F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562918BD2BCDA6E900CB7F34;
+			remoteInfo = MunkiAdmin2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562918BE2BCDA6E900CB7F34 /* MunkiAdmin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunkiAdmin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562918C12BCDA6E900CB7F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562918C32BCDA6E900CB7F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562918C52BCDA6E900CB7F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562918C82BCDA6E900CB7F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562918CA2BCDA6E900CB7F34 /* MunkiAdmin2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MunkiAdmin2.entitlements; sourceTree = "<group>"; };
+		562918CF2BCDA6E900CB7F34 /* MunkiAdmin2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunkiAdmin2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562918D32BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunkiAdmin2Tests.swift; sourceTree = "<group>"; };
+		562918D92BCDA6EA00CB7F34 /* MunkiAdmin2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunkiAdmin2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562918DD2BCDA6EA00CB7F34 /* MunkiAdmin2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunkiAdmin2UITests.swift; sourceTree = "<group>"; };
+		562918DF2BCDA6EA00CB7F34 /* MunkiAdmin2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunkiAdmin2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562918BB2BCDA6E900CB7F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918CC2BCDA6E900CB7F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918D62BCDA6EA00CB7F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562918B52BCDA6E800CB7F34 = {
+			isa = PBXGroup;
+			children = (
+				562918C02BCDA6E900CB7F34 /* MunkiAdmin2 */,
+				562918D22BCDA6E900CB7F34 /* MunkiAdmin2Tests */,
+				562918DC2BCDA6EA00CB7F34 /* MunkiAdmin2UITests */,
+				562918BF2BCDA6E900CB7F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562918BF2BCDA6E900CB7F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562918BE2BCDA6E900CB7F34 /* MunkiAdmin2.app */,
+				562918CF2BCDA6E900CB7F34 /* MunkiAdmin2Tests.xctest */,
+				562918D92BCDA6EA00CB7F34 /* MunkiAdmin2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562918C02BCDA6E900CB7F34 /* MunkiAdmin2 */ = {
+			isa = PBXGroup;
+			children = (
+				562918C12BCDA6E900CB7F34 /* AppDelegate.swift */,
+				562918C32BCDA6E900CB7F34 /* ViewController.swift */,
+				562918C52BCDA6E900CB7F34 /* Assets.xcassets */,
+				562918C72BCDA6E900CB7F34 /* Main.storyboard */,
+				562918CA2BCDA6E900CB7F34 /* MunkiAdmin2.entitlements */,
+			);
+			path = MunkiAdmin2;
+			sourceTree = "<group>";
+		};
+		562918D22BCDA6E900CB7F34 /* MunkiAdmin2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				562918D32BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift */,
+			);
+			path = MunkiAdmin2Tests;
+			sourceTree = "<group>";
+		};
+		562918DC2BCDA6EA00CB7F34 /* MunkiAdmin2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				562918DD2BCDA6EA00CB7F34 /* MunkiAdmin2UITests.swift */,
+				562918DF2BCDA6EA00CB7F34 /* MunkiAdmin2UITestsLaunchTests.swift */,
+			);
+			path = MunkiAdmin2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562918BD2BCDA6E900CB7F34 /* MunkiAdmin2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562918E32BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2" */;
+			buildPhases = (
+				562918BA2BCDA6E900CB7F34 /* Sources */,
+				562918BB2BCDA6E900CB7F34 /* Frameworks */,
+				562918BC2BCDA6E900CB7F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunkiAdmin2;
+			productName = MunkiAdmin2;
+			productReference = 562918BE2BCDA6E900CB7F34 /* MunkiAdmin2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562918CE2BCDA6E900CB7F34 /* MunkiAdmin2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562918E62BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2Tests" */;
+			buildPhases = (
+				562918CB2BCDA6E900CB7F34 /* Sources */,
+				562918CC2BCDA6E900CB7F34 /* Frameworks */,
+				562918CD2BCDA6E900CB7F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562918D12BCDA6E900CB7F34 /* PBXTargetDependency */,
+			);
+			name = MunkiAdmin2Tests;
+			productName = MunkiAdmin2Tests;
+			productReference = 562918CF2BCDA6E900CB7F34 /* MunkiAdmin2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562918D82BCDA6EA00CB7F34 /* MunkiAdmin2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562918E92BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2UITests" */;
+			buildPhases = (
+				562918D52BCDA6EA00CB7F34 /* Sources */,
+				562918D62BCDA6EA00CB7F34 /* Frameworks */,
+				562918D72BCDA6EA00CB7F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562918DB2BCDA6EA00CB7F34 /* PBXTargetDependency */,
+			);
+			name = MunkiAdmin2UITests;
+			productName = MunkiAdmin2UITests;
+			productReference = 562918D92BCDA6EA00CB7F34 /* MunkiAdmin2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562918B62BCDA6E900CB7F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					562918BD2BCDA6E900CB7F34 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					562918CE2BCDA6E900CB7F34 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 562918BD2BCDA6E900CB7F34;
+					};
+					562918D82BCDA6EA00CB7F34 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 562918BD2BCDA6E900CB7F34;
+					};
+				};
+			};
+			buildConfigurationList = 562918B92BCDA6E900CB7F34 /* Build configuration list for PBXProject "MunkiAdmin2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562918B52BCDA6E800CB7F34;
+			productRefGroup = 562918BF2BCDA6E900CB7F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562918BD2BCDA6E900CB7F34 /* MunkiAdmin2 */,
+				562918CE2BCDA6E900CB7F34 /* MunkiAdmin2Tests */,
+				562918D82BCDA6EA00CB7F34 /* MunkiAdmin2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562918BC2BCDA6E900CB7F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562918C62BCDA6E900CB7F34 /* Assets.xcassets in Resources */,
+				562918C92BCDA6E900CB7F34 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918CD2BCDA6E900CB7F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918D72BCDA6EA00CB7F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562918BA2BCDA6E900CB7F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562918C42BCDA6E900CB7F34 /* ViewController.swift in Sources */,
+				562918C22BCDA6E900CB7F34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918CB2BCDA6E900CB7F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562918D42BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562918D52BCDA6EA00CB7F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562918E02BCDA6EA00CB7F34 /* MunkiAdmin2UITestsLaunchTests.swift in Sources */,
+				562918DE2BCDA6EA00CB7F34 /* MunkiAdmin2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562918D12BCDA6E900CB7F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562918BD2BCDA6E900CB7F34 /* MunkiAdmin2 */;
+			targetProxy = 562918D02BCDA6E900CB7F34 /* PBXContainerItemProxy */;
+		};
+		562918DB2BCDA6EA00CB7F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562918BD2BCDA6E900CB7F34 /* MunkiAdmin2 */;
+			targetProxy = 562918DA2BCDA6EA00CB7F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562918C72BCDA6E900CB7F34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562918C82BCDA6E900CB7F34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562918E12BCDA6EA00CB7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		562918E22BCDA6EA00CB7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		562918E42BCDA6EA00CB7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MunkiAdmin2/MunkiAdmin2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		562918E52BCDA6EA00CB7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MunkiAdmin2/MunkiAdmin2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		562918E72BCDA6EA00CB7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunkiAdmin2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MunkiAdmin2";
+			};
+			name = Debug;
+		};
+		562918E82BCDA6EA00CB7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunkiAdmin2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MunkiAdmin2";
+			};
+			name = Release;
+		};
+		562918EA2BCDA6EA00CB7F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MunkiAdmin2;
+			};
+			name = Debug;
+		};
+		562918EB2BCDA6EA00CB7F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DRMJHJA8YJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MunkiAdmin2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562918B92BCDA6E900CB7F34 /* Build configuration list for PBXProject "MunkiAdmin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562918E12BCDA6EA00CB7F34 /* Debug */,
+				562918E22BCDA6EA00CB7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562918E32BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562918E42BCDA6EA00CB7F34 /* Debug */,
+				562918E52BCDA6EA00CB7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562918E62BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562918E72BCDA6EA00CB7F34 /* Debug */,
+				562918E82BCDA6EA00CB7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562918E92BCDA6EA00CB7F34 /* Build configuration list for PBXNativeTarget "MunkiAdmin2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562918EA2BCDA6EA00CB7F34 /* Debug */,
+				562918EB2BCDA6EA00CB7F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562918B62BCDA6E900CB7F34 /* Project object */;
+}
