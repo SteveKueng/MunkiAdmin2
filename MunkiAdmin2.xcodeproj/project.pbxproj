@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5024F52BDEA86900A491E0 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5024F42BDEA86900A491E0 /* MainWindowController.swift */; };
+		0B5024FA2BDEA9B300A491E0 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5024F92BDEA9B300A491E0 /* Definitions.swift */; };
+		0B5024FD2BDEADEB00A491E0 /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5024FC2BDEADEB00A491E0 /* PackagesViewController.swift */; };
+		0B5024FF2BDEADFC00A491E0 /* CatalogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5024FE2BDEADFC00A491E0 /* CatalogsViewController.swift */; };
+		0B50318C2BE0C6CE00A491E0 /* RepoBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B50318A2BE0C6CE00A491E0 /* RepoBridge.swift */; };
+		0B50318E2BE0C8B100A491E0 /* munkirepoutil in Resources */ = {isa = PBXBuildFile; fileRef = 0B50318D2BE0C8B100A491E0 /* munkirepoutil */; };
+		0B5031902BE0D48200A491E0 /* repobridge in Resources */ = {isa = PBXBuildFile; fileRef = 0B50318F2BE0D48200A491E0 /* repobridge */; };
+		0B5031922BE35A6000A491E0 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5031912BE35A6000A491E0 /* ModalViewController.swift */; };
+		0B5031942BE6894B00A491E0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5031932BE6894B00A491E0 /* DataStore.swift */; };
+		0B5031962BEBEA3E00A491E0 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5031952BEBEA3E00A491E0 /* LoadingViewController.swift */; };
+		0B50319A2BEE9A2C00A491E0 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5031972BEE9A2C00A491E0 /* TabViewController.swift */; };
 		562918C22BCDA6E900CB7F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918C12BCDA6E900CB7F34 /* AppDelegate.swift */; };
-		562918C42BCDA6E900CB7F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918C32BCDA6E900CB7F34 /* ViewController.swift */; };
+		562918C42BCDA6E900CB7F34 /* ManifestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918C32BCDA6E900CB7F34 /* ManifestsViewController.swift */; };
 		562918C62BCDA6E900CB7F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562918C52BCDA6E900CB7F34 /* Assets.xcassets */; };
 		562918C92BCDA6E900CB7F34 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 562918C82BCDA6E900CB7F34 /* Base */; };
 		562918D42BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562918D32BCDA6E900CB7F34 /* MunkiAdmin2Tests.swift */; };
@@ -34,9 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5024DE2BDAE1EE00A491E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0B5024F42BDEA86900A491E0 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		0B5024F92BDEA9B300A491E0 /* Definitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		0B5024FC2BDEADEB00A491E0 /* PackagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
+		0B5024FE2BDEADFC00A491E0 /* CatalogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogsViewController.swift; sourceTree = "<group>"; };
+		0B50318A2BE0C6CE00A491E0 /* RepoBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoBridge.swift; sourceTree = "<group>"; };
+		0B50318D2BE0C8B100A491E0 /* munkirepoutil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = munkirepoutil; sourceTree = "<group>"; };
+		0B50318F2BE0D48200A491E0 /* repobridge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = repobridge; sourceTree = "<group>"; };
+		0B5031912BE35A6000A491E0 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		0B5031932BE6894B00A491E0 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		0B5031952BEBEA3E00A491E0 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		0B5031972BEE9A2C00A491E0 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		562918BE2BCDA6E900CB7F34 /* MunkiAdmin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunkiAdmin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562918C12BCDA6E900CB7F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		562918C32BCDA6E900CB7F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562918C32BCDA6E900CB7F34 /* ManifestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestsViewController.swift; sourceTree = "<group>"; };
 		562918C52BCDA6E900CB7F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562918C82BCDA6E900CB7F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		562918CA2BCDA6E900CB7F34 /* MunkiAdmin2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MunkiAdmin2.entitlements; sourceTree = "<group>"; };
@@ -72,6 +95,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5024FB2BDEADD200A491E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B5031972BEE9A2C00A491E0 /* TabViewController.swift */,
+				562918C32BCDA6E900CB7F34 /* ManifestsViewController.swift */,
+				0B5024FC2BDEADEB00A491E0 /* PackagesViewController.swift */,
+				0B5024FE2BDEADFC00A491E0 /* CatalogsViewController.swift */,
+				0B5031912BE35A6000A491E0 /* ModalViewController.swift */,
+				0B5031952BEBEA3E00A491E0 /* LoadingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0B5025062BDED70A00A491E0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0B5031932BE6894B00A491E0 /* DataStore.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0B5031822BE0C65E00A491E0 /* repoutils */ = {
+			isa = PBXGroup;
+			children = (
+				0B50318F2BE0D48200A491E0 /* repobridge */,
+				0B50318A2BE0C6CE00A491E0 /* RepoBridge.swift */,
+			);
+			path = repoutils;
+			sourceTree = "<group>";
+		};
 		562918B52BCDA6E800CB7F34 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +148,14 @@
 		562918C02BCDA6E900CB7F34 /* MunkiAdmin2 */ = {
 			isa = PBXGroup;
 			children = (
+				0B5024DE2BDAE1EE00A491E0 /* Info.plist */,
 				562918C12BCDA6E900CB7F34 /* AppDelegate.swift */,
-				562918C32BCDA6E900CB7F34 /* ViewController.swift */,
+				0B5024F42BDEA86900A491E0 /* MainWindowController.swift */,
+				0B50318D2BE0C8B100A491E0 /* munkirepoutil */,
+				0B5031822BE0C65E00A491E0 /* repoutils */,
+				0B5024FB2BDEADD200A491E0 /* ViewControllers */,
+				0B5025062BDED70A00A491E0 /* Class */,
+				0B5024F92BDEA9B300A491E0 /* Definitions.swift */,
 				562918C52BCDA6E900CB7F34 /* Assets.xcassets */,
 				562918C72BCDA6E900CB7F34 /* Main.storyboard */,
 				562918CA2BCDA6E900CB7F34 /* MunkiAdmin2.entitlements */,
@@ -137,6 +196,8 @@
 			dependencies = (
 			);
 			name = MunkiAdmin2;
+			packageProductDependencies = (
+			);
 			productName = MunkiAdmin2;
 			productReference = 562918BE2BCDA6E900CB7F34 /* MunkiAdmin2.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +270,8 @@
 				Base,
 			);
 			mainGroup = 562918B52BCDA6E800CB7F34;
+			packageReferences = (
+			);
 			productRefGroup = 562918BF2BCDA6E900CB7F34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -226,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				562918C62BCDA6E900CB7F34 /* Assets.xcassets in Resources */,
+				0B50318E2BE0C8B100A491E0 /* munkirepoutil in Resources */,
 				562918C92BCDA6E900CB7F34 /* Base in Resources */,
+				0B5031902BE0D48200A491E0 /* repobridge in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562918C42BCDA6E900CB7F34 /* ViewController.swift in Sources */,
+				0B5031942BE6894B00A491E0 /* DataStore.swift in Sources */,
+				0B5024FF2BDEADFC00A491E0 /* CatalogsViewController.swift in Sources */,
+				562918C42BCDA6E900CB7F34 /* ManifestsViewController.swift in Sources */,
+				0B5031922BE35A6000A491E0 /* ModalViewController.swift in Sources */,
+				0B5024FD2BDEADEB00A491E0 /* PackagesViewController.swift in Sources */,
 				562918C22BCDA6E900CB7F34 /* AppDelegate.swift in Sources */,
+				0B50319A2BEE9A2C00A491E0 /* TabViewController.swift in Sources */,
+				0B5024F52BDEA86900A491E0 /* MainWindowController.swift in Sources */,
+				0B5024FA2BDEA9B300A491E0 /* Definitions.swift in Sources */,
+				0B50318C2BE0C6CE00A491E0 /* RepoBridge.swift in Sources */,
+				0B5031962BEBEA3E00A491E0 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +377,7 @@
 		562918E12BCDA6EA00CB7F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -366,6 +441,7 @@
 		562918E22BCDA6EA00CB7F34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -424,21 +500,31 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MunkiAdmin2/MunkiAdmin2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DRMJHJA8YJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = T8Z934872M;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MunkiAdmin2",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MunkiAdmin2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.stevekueng.MunkiAdmin2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,18 +540,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DRMJHJA8YJ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MunkiAdmin2",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MunkiAdmin2/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.umb.MunkiAdmin2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.stevekueng.MunkiAdmin2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

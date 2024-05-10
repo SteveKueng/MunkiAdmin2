@@ -1,0 +1,124 @@
+#!/usr/local/munki/munki-python
+# encoding: utf-8
+#
+# Copyright 2024 Steve Küng.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"""
+RepoBridge
+
+Created by Steve Küng on 2024-04-26.
+"""
+from __future__ import absolute_import, print_function
+
+import fnmatch
+import optparse
+import os
+import readline
+import shlex
+import sys
+import time
+
+# munki python modules
+sys.path.insert(0, '/usr/local/munki')
+
+from munkilib.cliutils import ConfigurationSaveError
+from munkilib.cliutils import configure as _configure
+from munkilib.cliutils import libedit
+from munkilib.cliutils import get_version, pref, path2url
+from munkilib.wrappers import (get_input,
+                               readPlistFromString, writePlistToString,
+                               PlistReadError, PlistWriteError)
+
+from munkilib import munkirepo
+
+
+def connect_to_repo():
+    '''Connects to the Munki repo'''
+    repo_url = pref('repo_url')
+    repo_path = pref('repo_path')
+    repo_plugin = pref('plugin')
+    if not repo_url and repo_path:
+        repo_url = path2url(repo_path)
+    if not repo_url:
+        print((
+            u'No repo URL defined. Run %s --configure to define one.'
+            % os.path.basename(__file__)), file=sys.stderr)
+        exit(-1)
+    try:
+        repo = munkirepo.connect(repo_url, repo_plugin)
+    except munkirepo.RepoError as err:
+        print(u'Repo error: %s' % err, file=sys.stderr)
+        exit(-1)
+    return repo
+
+def main():
+    repo = connect_to_repo()
+
+    # get parameters
+    parser = optparse.OptionParser()
+    # get items for kind
+    parser.add_option('-k', '--kind', dest='kind', default=None,
+                      help='Kind of item to list')
+    # get items for rescource identifier
+    parser.add_option('-i', '--item', dest='item', default=None,
+                      help='Get item for resource identifier')
+    # save item to repo
+    parser.add_option('-s', '--save', dest='save', default=None,
+                      help='Save item to repo')
+    # delete item from repo
+    parser.add_option('-d', '--delete', dest='delete', default=None,
+                      help='Delete item from repo')
+    (options, args) = parser.parse_args()
+
+    #allow only one option
+    if len([x for x in [options.kind, options.item, options.save, options.delete] if x]) != 1:
+        print('Please specify only one option', file=sys.stderr)
+        exit(-1)
+    
+    print("--- start repo bridge ---")
+
+    # select function based on option
+    if options.kind:
+        time.sleep(1)
+        print(','.join(repo.itemlist(options.kind)))
+    elif options.item:
+        print(repo.get(options.item).decode("utf-8"))
+    elif options.save:
+        try:
+            item = readPlistFromString(options.save)
+        except PlistReadError as err:
+            print(u'Error reading plist: %s' % err, file=sys.stderr)
+            exit(-1)
+        try:
+            repo.put(item)
+        except munkirepo.RepoError as err:
+            print(u'Error saving item: %s' % err, file=sys.stderr)
+            exit(-1)
+    elif options.delete:
+        try:
+            repo.delete(options.delete)
+        except munkirepo.RepoError as err:
+            print(u'Error deleting item: %s' % err, file=sys.stderr)
+            exit(-1)
+    else:
+        print('Please specify an option', file=sys.stderr)
+        exit(-1)
+
+
+
+
+if __name__ == '__main__':
+    main()
+#/
+

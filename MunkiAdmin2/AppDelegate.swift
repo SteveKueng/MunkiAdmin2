@@ -10,9 +10,6 @@ import Cocoa
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
@@ -25,6 +22,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
-
+    @objc func toolbarPickerDidSelectItem(_ sender: Any) {
+        if  let toolbarItemGroup = sender as? NSToolbarItemGroup {
+            //print("toolbar item group selected index: \(toolbarItemGroup.selectedIndex)")
+            
+            let splitviewcontroller = NSApplication.shared.keyWindow?.contentViewController as? NSSplitViewController
+            let controller = splitviewcontroller?.splitViewItems[1].viewController as? NSTabViewController
+            controller!.selectedTabViewItemIndex = toolbarItemGroup.selectedIndex
+            
+        }
+    }
 }
 
